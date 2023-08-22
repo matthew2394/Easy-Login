@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Tutaj możesz dodać swoją logikę autoryzacji, np. porównując dane zapisane w bazie danych.
         // W tym przykładzie zakładam, że prawidłowe dane to "username: admin" i "password: admin123".
 
-        if (username === "admin" && password === "admin123") {
+        if (username === "admin" && password === "admin123") { // tutaj ustawiamy dane logowania
             // Przekierowanie po zalogowaniu
             window.location.href = "dashboard.html"; // sciezka pliku
         } else {
